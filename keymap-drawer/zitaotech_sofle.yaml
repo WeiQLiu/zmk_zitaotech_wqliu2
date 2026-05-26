@@ -268,8 +268,8 @@ layers:
   - ''
   - ''
   - '&bootloader'
-  MOUSE: ['', '', '', '', '', '', '', MUTE, '', '', '', '', '', '', '', '', '', '', '&mkp MB3', '', '', '&mkp MB3', '', '', '', '', '', '', '', '', '&mkp LCLK', '',
-    '&mkp LCLK', '&mkp LCLK', '', '&mkp LCLK', '', '&msc SCRL_UP', '', '', '', '', '', '', '&mkp RCLK', '', '&msc SCRL_DOWN', '&msc SCRL_UP', '', '', '', '&mkp RCLK',
+  MOUSE: ['', '', '', '', '', '', '', MUTE, '', '', '', '', '', '', '', '', '', '', '', '', '', '&mkp MB3', '', '', '', '', '', '', '', '', '&mkp LCLK', '', '&mkp
+      LCLK', '&mkp LCLK', '', '&mkp LCLK', '', '&msc SCRL_UP', '', '', '', '', '', '', '&mkp RCLK', '', '&msc SCRL_DOWN', '&msc SCRL_UP', '', '', '', '&mkp RCLK',
     '', '&msc SCRL_DOWN', '', '', '&mkp MB2', '&mkp MB1', '', '', '', '', '', '', '&mkp MB1', '&mkp MB2']
 combos:
 - p: [17, 18]
