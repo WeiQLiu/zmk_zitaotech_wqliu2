@@ -1,0 +1,316 @@
+layout: {zmk_keyboard: zitaotech_sofle}
+layers:
+  MAC:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - MUTE
+  - MUTE
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BSPC
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ''''
+  - LEFT SHIFT
+  - {t: A, h: LEFT SHIFT}
+  - {t: S, h: LEFT GUI}
+  - D
+  - F
+  - G
+  - '&mkp LCLK'
+  - '&mkp LCLK'
+  - H
+  - J
+  - K
+  - {t: L, h: RIGHT GUI}
+  - {t: ;, h: RIGHT SHIFT}
+  - ENTER
+  - LCTRL
+  - {t: Z, h: LEFT CONTROL}
+  - {t: X, h: GLOBE}
+  - C
+  - V
+  - B
+  - PG DN
+  - PG UP
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - N
+  - M
+  - ','
+  - {t: ., h: GLOBE}
+  - {t: /, h: RIGHT CONTROL}
+  - RSHIFT
+  - '&mkp MB2'
+  - '&mkp MB1'
+  - '&alt_shift_dance'
+  - LGUI
+  - {t: SPACE, h: FUNC}
+  - {t: SPACE, h: FUNC}
+  - RGUI
+  - RALT
+  - '&mkp MB1'
+  - '&mkp MB2'
+  FUNC:
+  - '`'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - BT CLR
+  - MUTE
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - DEL
+  - ''
+  - HOME
+  - '&mkp MB4'
+  - UP ARROW
+  - '&mkp MB5'
+  - OUT TOG
+  - F11
+  - F12
+  - UP ARROW
+  - '['
+  - ']'
+  - \
+  - {t: WINDOWS, h: toggle}
+  - END
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - ''
+  - '&mkp RCLK'
+  - '&mkp RCLK'
+  - TAB
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - ''
+  - ''''
+  - GLOBE
+  - GLOBE
+  - ''
+  - PAGE DOWN
+  - PAGE UP
+  - RGB TOG
+  - END
+  - HOME
+  - '&bl BL_DEC'
+  - '&bl BL_INC'
+  - ESCAPE
+  - F24
+  - ''
+  - '-'
+  - '='
+  - ''
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - {t: LEFT SHIFT, type: held}
+  - RIGHT SHIFT
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  WINDOWS:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - MUTE
+  - MUTE
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BSPC
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
+  - LEFT SHIFT
+  - {t: A, h: LEFT SHIFT}
+  - {t: S, h: LEFT CONTROL}
+  - D
+  - F
+  - G
+  - '&mkp LCLK'
+  - '&mkp LCLK'
+  - H
+  - J
+  - K
+  - {t: L, h: RIGHT CONTROL}
+  - {t: ;, h: RIGHT SHIFT}
+  - ENTER
+  - LGUI
+  - {t: Z, h: LEFT GUI}
+  - X
+  - C
+  - V
+  - B
+  - PG DN
+  - PG UP
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - N
+  - M
+  - ','
+  - .
+  - {t: /, h: RIGHT GUI}
+  - RSHIFT
+  - '&mkp MB2'
+  - '&mkp MB1'
+  - LEFT CONTROL
+  - '&alt_shift_dance'
+  - {t: SPACE, h: FUNCwin}
+  - {t: SPACE, h: FUNCwin}
+  - RIGHT ALT
+  - RIGHT CONTROL
+  - '&mkp MB1'
+  - '&mkp MB2'
+  FUNCwin:
+  - '`'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - BT CLR
+  - MUTE
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - DEL
+  - {t: MAC, h: toggle}
+  - HOME
+  - '&mkp MB4'
+  - UP ARROW
+  - '&mkp MB5'
+  - OUT TOG
+  - F11
+  - F12
+  - UP ARROW
+  - '['
+  - ']'
+  - \
+  - ''
+  - END
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - ''
+  - '&mkp RCLK'
+  - '&mkp RCLK'
+  - TAB
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - ''
+  - ''''
+  - ''
+  - ''
+  - ''
+  - PAGE DOWN
+  - PAGE UP
+  - RGB TOG
+  - END
+  - HOME
+  - '&bl BL_DEC'
+  - '&bl BL_INC'
+  - ESCAPE
+  - BACK
+  - ''
+  - '-'
+  - '='
+  - ''
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - {t: LEFT SHIFT, type: held}
+  - RIGHT SHIFT
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  MOUSE: ['', '', '', '', '', '', '', MUTE, '', '', '', '', '', '', '', '', '', '', '&mkp MB3', '', '', '&mkp MB3', '', '', '', '', '', '', '', '', '&mkp LCLK', '',
+    '&mkp LCLK', '&mkp LCLK', '', '&mkp LCLK', '', '&msc SCRL_UP', '', '', '', '', '', '', '&mkp RCLK', '', '&msc SCRL_DOWN', '&msc SCRL_UP', '', '', '', '&mkp RCLK',
+    '', '&msc SCRL_DOWN', '', '', '&mkp MB2', '&mkp MB1', '', '', '', '', '', '', '&mkp MB1', '&mkp MB2']
+combos:
+- p: [17, 18]
+  k: (
+  l: [MAC, WINDOWS]
+- p: [21, 22]
+  k: )
+  l: [MAC, WINDOWS]
+- p: [15, 16]
+  k: ESC
+  l: [MAC, WINDOWS]
+- p: [27, 28]
+  k: '"'
+  l: [MAC, WINDOWS]
+- p: [37, 38]
+  k: ''''
+  l: [MAC, WINDOWS]
+- p: [41, 42]
+  k: ENTER
+  l: [MAC, WINDOWS]
+- p: [22, 23]
+  k: \
+  l: [MAC, WINDOWS]
+- p: [23, 24]
+  k: '|'
+  l: [MAC, WINDOWS]
+- p: [29, 30]
+  k: '['
+  l: [MAC, WINDOWS]
+- p: [35, 36]
+  k: ']'
+  l: [MAC, WINDOWS]
+- p: [43, 44]
+  k: '{'
+  l: [MAC, WINDOWS]
+- p: [51, 52]
+  k: '}'
+  l: [MAC, WINDOWS]
+- p: [1, 2]
+  k: {t: WINDOWS, h: toggle}
+  l: [MAC]
+- p: [0, 1]
+  k: '&mac_pure'
+  l: [WINDOWS]
